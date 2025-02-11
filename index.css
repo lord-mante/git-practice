@@ -1,0 +1,167 @@
+*{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#ede6f6 ;
+    height: 100%;
+  }
+  form{
+    display: flex;
+    box-sizing: content-box;
+    flex-direction: column;
+    align-items: center;
+  }
+  div{
+    box-shadow: none;
+    background-color: transparent;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  
+  }
+  .main {
+    height: 230px;
+    width: 50vw;
+    box-sizing: border-box;
+    background-color: white;
+    border-top: 12px solid lightskyblue;
+    border-radius: 10px;
+    margin: 13px;
+    margin-bottom: 0;
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 13px;
+  }
+  .main h1{
+    font-size: 2rem;
+  }
+  .main p{
+    font-size: 1rem;
+  }
+  .email, .name, .phone{
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 8px;
+    border-color: red;
+    padding: 24px;
+    margin: 10px;
+    margin-bottom: 12px;
+    height: 150px;
+    width: 50vw;
+  }
+  .location, .school, .join, .hear{
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 8px;
+    border-color: red;
+    padding: 24px;
+    margin: 10px;
+    margin-bottom: 12px;
+    height: 150px;
+    width: 50vw;
+  }
+  .mcq{
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 8px;
+    border-color: red;
+    padding: 24px;
+    margin: 13px;
+    margin-bottom: 12px;
+    height: 160px;
+    width: 50vw;
+  }
+  .phoneofkin{
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 8px;
+    border-color: red;
+    padding: 24px;
+    margin: 13px;
+    margin-bottom: 12px;
+    height: 180px;
+    width: 50vw;
+  }
+  input[type="text"],
+    [type="email"] {
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  button {
+    margin: 13px;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding: 8px 19px;
+    border-radius: 3px;
+    background-color: #663ab5;
+    border: none;
+    color: white;
+   }
+    button:hover {
+    background-color: #452286;
+    transition: ease-in 200ms;
+  }
+  .submit{
+    width: 5vw;
+    display: flex;
+    flex-direction: row;
+   justify-content: flex-start;
+  }
+  .policy {
+    font-size: 14px;
+    color: grey;
+  }
+  .policy a {
+    text-decoration: none;
+    color: grey;
+    text-decoration: underline;
+  } 
+  .Google {
+          text-align: center;
+        }
+        @media only screen and (max-width: 1000px){
+          img, .main, .name, .email,.submit, .rule, .policy, .Google {
+            width: 90vw;
+          }
+          img {
+            height: 125px;
+          }
+          .main {
+            height: 180px;
+            font-size: 12px;
+          }
+          .name, .email {
+            height: 110px;
+            font-size: 12px;
+          }
+  
+          .main h1 {
+            font-size: 18px;
+          }
+          .main p,h4 {
+            margin: 10px 0px;
+          }
+          h1 {
+            font-size: 25px;
+          }
+          input[type="text"],
+          [type="email"] {
+            padding: 5;
+          }
+  
+  button {
+    padding: 10px 22px;
+    border-radius: 5px;
+  }
+  }
+  
+  
+  
