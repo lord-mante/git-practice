@@ -1,7 +1,7 @@
 *{
     font-family: "Roboto", serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: larger;
   }
   
   body{
@@ -162,6 +162,4 @@
     border-radius: 5px;
   }
   }
-  
-  
-  
+  changes font-style larger
